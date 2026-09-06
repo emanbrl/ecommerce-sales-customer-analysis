@@ -1,4 +1,7 @@
+import sys
+print(sys.executable)
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # Load the data
 df = pd.read_excel("OnlineRetail.xlsx")
